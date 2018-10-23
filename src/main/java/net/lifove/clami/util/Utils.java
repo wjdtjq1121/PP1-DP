@@ -232,7 +232,7 @@ public class Utils {
 							newTestInstances.classAttribute().value((int)predictedLabelIdx)	+
 							//((newTestInstances.classAttribute().indexOfValue(positiveLabel))==predictedLabelIdx?"buggy":"clean") +
 							", (Actual class: " + Utils.getStringValueOfInstanceLabel(newTestInstances,instIdx) + ") ");
-					// compute T/F/P/N for the original instances labeled.
+//					 compute T/F/P/N for the original instances labeled.
 					if(!Double.isNaN(instances.get(instIdx).classValue())){
 						if(predictedLabelIdx==instances.get(instIdx).classValue()){
 							if(predictedLabelIdx==instances.attribute(instances.classIndex()).indexOfValue(positiveLabel))
