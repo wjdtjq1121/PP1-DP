@@ -1,11 +1,16 @@
 package edu.handong.csee.pp1.dp;
 
+import static org.junit.Assert.assertEquals;
+
 public class Main {
 	
 	static boolean INFO = true;
+
+
 	
 	public static void main(String[] args) {
 		new Main().run(args);
+		
 	}
 
 	private void run(String[] args) {
